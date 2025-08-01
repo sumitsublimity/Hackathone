@@ -1,0 +1,33 @@
+# Ignore artifacts:
+build
+# Ignore node modules
+node_modules
+
+# Build output
+.next
+dist
+out
+
+# Environment files
+.env*
+!.env.example
+
+# Dependency lock files (Prettier doesn’t need to touch these)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tailwind JIT generated files (if used)
+.tailwind*
+
+# TypeScript build artifacts (if compiled manually)
+*.tsbuildinfo
+
+# Public assets
+public
+
+# Coverage reports (e.g., from Jest)
+coverage
+
+# Storybook (if using it)
+.storybook-out
